@@ -40,6 +40,7 @@ export type TCategory =
     | 'fun'
     | 'moderation'
     | 'music'
+    | 'games'
     | 'category'
     | 'nsfw'
     | 'school'
