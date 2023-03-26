@@ -1,7 +1,7 @@
 import { BaseCommand, Command, Message } from '../../Structures'
 
 @Command('delete', {
-  description: 'Menghapus pesan yang di reply',
+  description: 'delete the message',
   category: 'general',
   usage: 'delete [quote_message]',
   cooldown: 15
