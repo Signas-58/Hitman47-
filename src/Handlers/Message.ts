@@ -5,6 +5,7 @@ import { BaseCommand, Client, Message } from '../Structures'
 import { IArgs, ICommand } from '../Types'
 import AudioMessage from './AudioMessage'
 import FindBadword from './FIndBadword'
+import { IQuiz } from 'anime-quiz'
 
 export class MessageHandler {
   constructor(private client: Client) {}
@@ -101,7 +102,7 @@ export class MessageHandler {
       !this.client.config.mods.includes(M.sender.jid)
     )
       return void M.reply(
-        'Perintah ini hanya bisa digunakan oleh MODS'
+        'this command can be used by MODS'
       )
     if (
       this.client.config.isDevelopment &&
@@ -113,15 +114,15 @@ export class MessageHandler {
     }
     if (M.chat === 'dm' && !command.config.dm)
       return void M.reply(
-        'Perintah ini hanya bisa digunakan didalam grup'
+        'this command can work In the group only'
       )
     if (command.config.category === 'moderation' && !M.sender.isAdmin)
       return void M.reply(
-        'Perintah ini hanya bisa digunakan oleh admin grup'
+        'this command can be used by admins'
       )
     const { nsfw } = await this.client.DB.getGroup(M.from)
     if (command.config.category === 'nsfw' && !nsfw)
-      return void M.reply('Perintah ini tidak diizinkan di grup ini')
+      return void M.reply('if you want to use this command enable nsfw')
     const cooldownAmount = (command.config.cooldown ?? 3) * 1000
     const time = cooldownAmount + Date.now()
     if (
@@ -240,4 +241,11 @@ export class MessageHandler {
   private cooldowns = new Map<string, number>()
 
   private path = [__dirname, '..', 'Commands']
+
+  public quiz = {
+        quizResponse: new Map<string, IQuiz>(),
+        failed: new Map<string, string[]>(),
+        creator: new Map<string, string>()
+    }
 }
+
