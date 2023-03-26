@@ -35,4 +35,12 @@ export interface IConfig {
   aboutBot: string
   /**remove bg key */
   removeBgKey: string
+  /** JIDS of the support groups */
+    supportGroups: string[]
+    /** JID of the casino group */
+    casinoGroup: string
+    /** JID of the admins group */
+    adminsGroup: string
+    /** API for google */
+    gkey: string
 }
