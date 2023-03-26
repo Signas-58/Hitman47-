@@ -4,7 +4,7 @@ import { BaseCommand, Command, Message } from '../../Structures'
 
 @Command('imgtotext', {
   description: 'Mengubah gambar yang berisi text menjadi text',
-  category: 'ai',
+  category: 'school',
   usage: 'imgtotext [reply gambar atau kirim gambar]',
   cooldown: 20,
   dm: true
