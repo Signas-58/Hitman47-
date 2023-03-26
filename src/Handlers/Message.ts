@@ -80,7 +80,7 @@ export class MessageHandler {
       )
     const cmd = args[0].toLowerCase().slice(prefix.length)
     const command = this.commands.get(cmd) || this.aliases.get(cmd)
-    if (!command) return void M.reply('Perintah tidak ditemukan')
+    if (!command) return void M.reply('no command bitch')
     const disabledCommands =
       await this.client.DB.getDisabledCommands()
     const index = disabledCommands.findIndex(
@@ -133,9 +133,9 @@ export class MessageHandler {
         (cd as number) - Date.now()
       )
       return void M.reply(
-        `Tolong tunggu *${remainingTime}* ${
+        `you are on a cooldown *${remainingTime}* ${
           remainingTime > 1 ? 'seconds' : 'second'
-        } untuk menggunakan perintah lagi`
+        } Please wait`
       )
     } else this.cooldowns.set(`${M.sender.jid}${command.name}`, time)
     setTimeout(
