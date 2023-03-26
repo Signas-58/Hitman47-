@@ -3,8 +3,8 @@
 </p>
 
 ## ***Hitman47***
-> This Script WhatsApp Bot Using Library Baileys & Script is free for everyone, not for Sale!
-> ***Note: it's a modified version of [bitch](Fuck you)***
+> This Script Hitman47 🧧 Bot Using Library Baileys & Script is free for everyone, not for Sale!
+> ***Note: it's a modified version of [🧧mind your own business 🧧](Fuck you)***
 </br>
 
 <a href="https://github.com/Hitman47-/"><img title="Author" src="https://img.shields.io/badge/Author-Hitman47-blue.svg?color=54aeff&style=for-the-badge&logo=github" /></a>  
