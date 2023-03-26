@@ -187,6 +187,8 @@ export class Client extends (EventEmitter as new () => TypedEventEmitter<Events>
 
   public contact = new Contact(this)
 
+  public getAllGroups = async (): Promise<string[]> => Object.keys(await this.groupFetchAllParticipating())
+
   public conversations: any = {}
 
   public correctJid = (jid: string): string =>
