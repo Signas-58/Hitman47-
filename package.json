@@ -2,7 +2,7 @@
   "name": "Hitman47",
   "version": "0.1.0",
   "description": "A WhatsApp bot written in TypeScript using Baileys and implement ChatGPT",
-  "author": "Akmal Dira",
+  "author": "Hitman47",
   "main": "dist/bot.js",
   "license": "MIT",
   "scripts": {
