@@ -7,15 +7,15 @@
 > ***Note: it's a modified version of [bitch](Fuck you)***
 </br>
 
-<a href="https://github.com/Hitman47/"><img title="Author" src="https://img.shields.io/badge/Author-Hitman47-blue.svg?color=54aeff&style=for-the-badge&logo=github" /></a>  
-<a href="https://github.com/Dkhitman3/Hitman47"><img title="Stars" src="https://img.shields.io/github/stars/Dkhitman3/Hitman47?color=54aeff&style=flat-square" /></a>
-<a href="https://github.com/Dkhitman3/Hitman47/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Dkhitman3/Hitman47?color=54aeff&style=flat-square" /></a>
-<a href="https://github.com/Dkhitman3/Hitman47/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Dkhitman3/Hitman47?label=watchers&color=54aeff&style=flat-square" /></a> <br>
+<a href="https://github.com/Hitman47-/"><img title="Author" src="https://img.shields.io/badge/Author-Hitman47-blue.svg?color=54aeff&style=for-the-badge&logo=github" /></a>  
+<a href="https://github.com/Dkhitman3/Hitman47-"><img title="Stars" src="https://img.shields.io/github/stars/Dkhitman3/Hitman47?color=54aeff&style=flat-square" /></a>
+<a href="https://github.com/Dkhitman3/Hitman47-/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Dkhitman3/Hitman47?color=54aeff&style=flat-square" /></a>
+<a href="https://github.com/Dkhitman3/Hitman47-/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Dkhitman3/Hitman47?label=watchers&color=54aeff&style=flat-square" /></a> <br>
 
 ---
 
 <b><details><summary>Deployment Buttons Here</summary></b>  
-[![Deploy on Repl.it](https://repl.it/badge/github/Dkhitman3/Hitman47)](https://repl.it/github.com/Dkhitman3/Hitman)
+[![Deploy on Repl.it](https://repl.it/badge/github/Dkhitman3/Hitman47)](https://repl.it/github.com/Dkhitman3/Hitman-)
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/3j9GNw?referralCode=TE7efK)
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/apps/deploy?type=docker&image=quay.io/toshi-san001/koyeb-auto-install:main&env%5BPORT%5D=8000&env%5BPREFIX%5D&&env%5BMONGODB%5D&&env%MODS%5D&name=Hitman)
 
