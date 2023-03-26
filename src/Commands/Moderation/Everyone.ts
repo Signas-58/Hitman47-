@@ -1,7 +1,7 @@
 import { Command, BaseCommand, Message } from '../../Structures'
 import { IArgs } from '../../Types'
 
-@Command('ping', {
+@Command('everyone', {
     description: 'Tags all of the members in a group',
     usage: 'ping (--tags=hidden)',
     category: 'moderation',
