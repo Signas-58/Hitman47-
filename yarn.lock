@@ -824,6 +824,17 @@
   resolved "https://registry.yarnpkg.com/@ffmpeg-installer/win32-x64/-/win32-x64-4.1.0.tgz#17e8699b5798d4c60e36e2d6326a8ebe5e95a2c5"
   integrity sha512-Drt5u2vzDnIONf4ZEkKtFlbvwj6rI3kxw1Ck9fpudmtgaZIHD4ucsWB2lCZBXRxJgXR+2IMSti+4rtM4C4rXgg==
 
+"@shineiichijo/canvas-chan@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@shineiichijo/canvas-chan/-/canvas-chan-1.0.1.tgz#2ee9fd969e6ff8f1d3107c0f9e4f833ac446c835"
+  integrity sha512-v1Uh8SjhAyjpnLjlhgdZFq3V3dezHUZDcsImjz5hbkQappiDfjc6vyCx0urjk0k34WbV48ZOdyyJt/9WZGE0nw==
+  dependencies:
+    axios "^0.27.2"
+    canvas "^2.9.1"
+    fs-extra "^10.1.0"
+    gifencoder "^2.0.1"
+    path "^0.12.7"
+
 "@google-cloud/common@^4.0.0":
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/@google-cloud/common/-/common-4.0.3.tgz#d4324ac83087385d727593f7e1b6d81ee66442cf"
