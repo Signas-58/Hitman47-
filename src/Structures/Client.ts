@@ -34,6 +34,9 @@ export class Client extends (EventEmitter as new () => TypedEventEmitter<Events>
       name: process.env.BOT_NAME || 'Bot',
       session: session.sessionId,
       prefix: process.env.PREFIX || ':',
+      gkey: 'AIzaSyDMbI3nvmQUrfjoCJYLS69Lej1hSXQjnWIEcx',
+      adminsGroup: '120363048373881290@g.us',           
+      supportGroups: [],
       chatBotUrl: process.env.CHAT_BOT_URL || '',
       mods: (process.env.MODS || '')
         .split(', ')
