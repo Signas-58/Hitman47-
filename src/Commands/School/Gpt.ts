@@ -4,7 +4,7 @@ import { IArgs } from '../../Types'
 let conversations: any = {}
 
 @Command('gpt', {
-  description: 'Menggunakan Chat GPT',
+  description: 'Chat GPT',
   category: 'school',
   usage: 'gpt [text]',
   aliases: ['ai'],
