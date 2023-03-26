@@ -19,7 +19,7 @@
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/3j9GNw?referralCode=TE7efK)
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/apps/deploy?type=docker&image=quay.io/toshi-san001/koyeb-auto-install:main&env%5BPORT%5D=8000&env%5BPREFIX%5D&&env%5BMONGODB%5D&&env%MODS%5D&name=Hitman)
 
-</details>
+</details>🧧
 
 <b><details><summary>Deployment Guide</summary></b>  
 > - [Self Hosting Guide](https://github.com/Dkhitman3/Hitman47/blob/master/Self-Hosting-Guide.md)
@@ -42,7 +42,7 @@
 
 ---
 
-## License
+## License🧧
 
 > Hitman47 🧧 is free and open-source software licensed under the [GNU Affero General Public License v3.0](https://github.com/Dkhitman3/Hitman/blob/master/LICENSE)
 
@@ -57,7 +57,7 @@
 ## 🧧Help
 Please give this repo a ⭐ if it helped you.
 ## ✍︎ Hitman 
-This is a lovely project by Hitman47 🧧. After forking don't do any change. If you do we will sue you for sure. If you wanna do any changes click the following Whatsapp icons and join our groups and contact an OWNER 
+This is a lovely project by Hitman47 🧧. After forking don't do any change. I'm not a developer I'm just a stupid ass guy 🙏 If you wanna do any changes click the following Whatsapp icons and join our groups and contact an OWNER and if you have a problem with this bot go fuck yourself 🌹
  
 HOW TO REACH THE OWNER? ❤️❤️❤️
    <a href="https://wa.me/+27844132352?text=Hi%20I%20Am%20From%20GitHub%20☺️">
