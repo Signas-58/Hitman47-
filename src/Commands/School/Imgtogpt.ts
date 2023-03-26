@@ -4,9 +4,9 @@ import { OpenAI } from '../../lib/OpenAI'
 import { BaseCommand, Command, Message } from '../../Structures'
 
 @Command('imgtogpt', {
-  description: 'Menggunakan Chat GPT dari gambar yang berisi text',
+  description: 'Chat GPT dari gambar yang berisi text',
   category: 'school',
-  usage: 'imgtext [reply gambar atau kirim gambar]',
+  usage: 'imgtext [reply]',
   aliases: ['textimg', 'imgtext'],
   cooldown: 20,
   dm: true
@@ -14,12 +14,12 @@ import { BaseCommand, Command, Message } from '../../Structures'
 export default class extends BaseCommand {
   public override execute = async (M: Message): Promise<void> => {
     if (!this.client.config.googleApiEnable)
-      return void M.reply('Fitur ini tidak diaktifkan')
+      return void M.reply('add your API')
     if (
       !M.hasSupportedMediaMessage &&
       !M.quoted?.hasSupportedMediaMessage
     )
-      return void M.reply('Media tidak ditemukan')
+      return void M.reply('Media vn')
 
     M.reply('*Processing!!!*')
     let buffer!: Buffer
