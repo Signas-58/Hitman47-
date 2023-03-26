@@ -11,6 +11,9 @@ export class UserSchema {
   @prop({ type: Number, required: true, default: 0 })
   public quizWins!: number
 
+  @prop({ type: Number, required: true, default: 0 })
+  public experience!: number
+
   @prop({ type: String, required: true })
   public tag!: string
 
