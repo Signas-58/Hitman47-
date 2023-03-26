@@ -8,6 +8,9 @@ export class UserSchema {
   @prop({ type: Boolean, required: true, default: false })
   public banned!: boolean
 
+  @prop({ type: Number, required: true, default: 0 })
+  public quizWins!: number
+
   @prop({ type: String, required: true })
   public tag!: string
 
