@@ -1,7 +1,7 @@
 import { BaseCommand, Command, Message } from '../../Structures'
 
 @Command('unban', {
-  description: 'Unban pengguna',
+  description: 'Unban user',
   category: 'dev',
   cooldown: 5,
   usage: 'unban [tag/quote users]'
@@ -21,7 +21,7 @@ export default class extends BaseCommand {
       if (!info.banned) {
         text += `*@${
           user.split('@')[0]
-        }* (Gagal karena tidak terbanned)`
+        }* (You are unban by mods)`
         continue
       }
       text += `*@${user.split('@')[0]}* (Berhasil)`
