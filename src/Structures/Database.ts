@@ -37,6 +37,11 @@ export class Database {
     await this.updateUser(jid, 'banned', 'set', action === 'ban')
   }
 
+  public setExp = async (jid: string, experience: number): Promise<void> => {
+        experience = experience + Math.floor(Math.random() * 25)
+        await this.updateUser(jid, 'experience', 'inc', experience)
+  }
+
   public updateUser = async (
     jid: string,
     field: keyof UserSchema,
