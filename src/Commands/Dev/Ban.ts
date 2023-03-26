@@ -12,7 +12,7 @@ export default class extends BaseCommand {
     if (M.quoted && !users.includes(M.quoted.sender.jid))
       users.push(M.quoted.sender.jid)
     if (users.length < 1)
-      return void M.reply('Tag atau reply user yang akan diban')
+      return void M.reply('Tag the user you want to ban')
     let text = 'Status banned\n\n'
     for (const user of users) {
       const info = await this.client.DB.getUser(user)
