@@ -3,7 +3,7 @@ import { GoogleAPI } from '../../lib/GoogleAPI'
 import { BaseCommand, Command, Message } from '../../Structures'
 
 @Command('imgtotext', {
-  description: 'Mengubah gambar yang berisi text menjadi text',
+  description: 'send the picture so it can be text',
   category: 'school',
   usage: 'imgtotext [reply gambar atau kirim gambar]',
   cooldown: 20,
@@ -12,12 +12,12 @@ import { BaseCommand, Command, Message } from '../../Structures'
 export default class extends BaseCommand {
   public override execute = async (M: Message): Promise<void> => {
     if (!this.client.config.googleApiEnable)
-      return void M.reply('Fitur ini tidak diaktifkan')
+      return void M.reply('add your API ')
     if (
       !M.hasSupportedMediaMessage &&
       !M.quoted?.hasSupportedMediaMessage
     )
-      return void M.reply('Media tidak ditemukan')
+      return void M.reply('Media hitman47')
 
     M.reply('*Processing!!!*')
     let buffer!: Buffer
