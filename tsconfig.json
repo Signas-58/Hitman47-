@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "CommonJS",
-    "lib": [g],
+    "lib": [],
     "outDir": "./dist",
     "esModuleInterop": true,
     "skipLibCheck": true,
