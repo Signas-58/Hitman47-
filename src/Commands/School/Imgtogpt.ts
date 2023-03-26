@@ -5,7 +5,7 @@ import { BaseCommand, Command, Message } from '../../Structures'
 
 @Command('imgtogpt', {
   description: 'Menggunakan Chat GPT dari gambar yang berisi text',
-  category: 'ai',
+  category: 'school',
   usage: 'imgtext [reply gambar atau kirim gambar]',
   aliases: ['textimg', 'imgtext'],
   cooldown: 20,
