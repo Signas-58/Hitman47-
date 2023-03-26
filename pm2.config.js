@@ -1,5 +1,5 @@
 module.exports = {
-  name: 'bot_akmal',
+  name: 'Hitman47',
   script: './dist/bot.js',
   watch: true,
   ignore_watch: ['node_modules', 'logs'],
