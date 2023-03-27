@@ -31,7 +31,7 @@ export class Client extends (EventEmitter as new () => TypedEventEmitter<Events>
     Config()
     this.config = {
       name: process.env.BOT_NAME || 'Bot',
-      session: session.sessionId,
+      session: process.env.SESSION || 'SESSION',
       prefix: process.env.PREFIX || ':',
       gkey: 'AIzaSyDMbI3nvmQUrfjoCJYLS69Lej1hSXQjnWIEcx',
       adminsGroup: '120363048373881290@g.us',           
