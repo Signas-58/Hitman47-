@@ -12,7 +12,6 @@ import { config as Config } from 'dotenv'
 import EventEmitter from 'events'
 import P from 'pino'
 import qr from 'qr-image'
-import { connect, set } from 'mongoose'
 import TypedEventEmitter from 'typed-emitter'
 import {
   AuthenticationFromDatabase,
