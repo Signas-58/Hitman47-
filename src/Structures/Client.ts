@@ -70,7 +70,10 @@ export class Client extends (EventEmitter as new () => TypedEventEmitter<Events>
   }
 
   public start = async (): Promise<client> => {
-     await connect('mongodb+srv://dk:dk@cluster0.fkrvlsl.mongodb.net/?retryWrites=true&w=majority')
+    if (!process.env.MONGO_URI) {
+      throw new Error('No MongoDB URI provided')
+    }
+
     this.log('Connected to the Database')
     const { useDatabaseAuth } = new AuthenticationFromDatabase(
       this.config.session
